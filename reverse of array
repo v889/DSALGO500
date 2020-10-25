@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include<malloc.h>
+
+int main()
+{
+    int n,i,j;
+    printf("enter lenght of array:");
+    scanf("%d",&n);
+    int *ptr=(int*)malloc(n*sizeof(int));
+    printf("element of array:\n");
+    for(i=1;i<n;i++)
+    {
+        scanf("%d",&ptr[i]);
+    }
+    printf("\nyour entered array:\n");
+    for(i=0;i<n;i++)
+    {
+        printf("%d\t",ptr[i]);
+    }
+    printf("\nreverse array:\n");
+    for(i=n;i>1;i--)
+    {
+        printf("%d\t",ptr[i]);
+    }
+    
+    
+}
