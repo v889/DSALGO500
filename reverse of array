@@ -2,7 +2,7 @@
 
 int main()
 {
-    int n,i,j,ptr[100];
+    int n,i,ptr[100];
     printf("enter lenght of array:");
     scanf("%d",&n);
     printf("element of array:\n");
