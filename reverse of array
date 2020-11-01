@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include<malloc.h>
 
 int main()
 {
-    int n,i,j,a[100];
+    int n,i,j,ptr[100];
     printf("enter lenght of array:");
     scanf("%d",&n);
     printf("element of array:\n");
